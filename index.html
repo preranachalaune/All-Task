@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript 10 Tasks</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>JavaScript 10 Tasks</h1>
+
+        <!-- ========================= -->
+        <!-- Task 1 -->
+        <!-- ========================= -->
+
+        <div class="card">
+
+            <h2>Task 1: Even or Odd</h2>
+
+            <input
+                type="number"
+                id="evenOddInput"
+                placeholder="Enter a number">
+
+            <button onclick="checkEvenOdd()">
+                Check
+            </button>
+
+            <p id="evenOddResult"></p>
+
+        </div>
+
+
+
+        <!-- ========================= -->
+        <!-- Task 2 -->
+        <!-- ========================= -->
+
+        <div class="card">
+
+            <h2>Task 2: Positive, Negative or Zero</h2>
+
+            <input
+                type="number"
+                id="pnzInput"
+                placeholder="Enter a number">
+
+            <button onclick="checkPNZ()">
+                Check
+            </button>
+
+            <p id="pnzResult"></p>
+
+        </div>
+
+
+
+        <!-- ========================= -->
+        <!-- Task 3 -->
+        <!-- ========================= -->
+
+        <div class="card">
+
+            <h2>Task 3: Largest of Two Numbers</h2>
+
+            <input
+                type="number"
+                id="num1"
+                placeholder="Enter first number">
+
+            <input
+                type="number"
+                id="num2"
+                placeholder="Enter second number">
+
+            <button onclick="largestNumber()">
+                Check
+            </button>
+
+            <p id="largestResult"></p>
+
+        </div>
+
+
+
+        <!-- ========================= -->
+        <!-- Task 4 -->
+        <!-- ========================= -->
+
+        <div class="card">
+
+            <h2>Task 4: Leap Year Checker</h2>
+
+            <input
+                type="number"
+                id="leapYear"
+                placeholder="Enter Year">
+
+            <button onclick="checkLeapYear()">
+                Check
+            </button>
+
+            <p id="leapResult"></p>
+
+        </div>
+
+
+
+        <!-- ========================= -->
+        <!-- Task 5 -->
+        <!-- ========================= -->
+
+        <div class="card">
+
+            <h2>Task 5: Voting Eligibility</h2>
+
+            <input
+                type="number"
+                id="age"
+                placeholder="Enter Age">
+
+            <button onclick="checkVoting()">
+                Check
+            </button>
+
+            <p id="voteResult"></p>
+
+        </div>
+
+
+
+        <!-- ========================= -->
+        <!-- Task 6 -->
+        <!-- ========================= -->
+
+        <div class="card">
+
+            <h2>Task 6: Simple Calculator</h2>
+
+            <input
+                type="number"
+                id="calNum1"
+                placeholder="First Number">
+
+            <input
+                type="number"
+                id="calNum2"
+                placeholder="Second Number">
+
+            <select id="operator">
+
+                <option value="+">+</option>
+
+                <option value="-">-</option>
+
+                <option value="*">*</option>
+
+                <option value="/">/</option>
+
+            </select>
+
+            <button onclick="calculator()">
+                Calculate
+            </button>
+
+            <p id="calResult"></p>
+
+        </div>
+
+
+
+        <!-- ========================= -->
+        <!-- Task 7 -->
+        <!-- ========================= -->
+
+        <div class="card">
+
+            <h2>Task 7: Grade Calculator</h2>
+
+            <input
+                type="number"
+                id="marks"
+                placeholder="Enter Marks">
+
+            <button onclick="calculateGrade()">
+                Check Grade
+            </button>
+
+            <p id="gradeResult"></p>
+
+        </div>
+
+
+
+        <!-- ========================= -->
+        <!-- Task 8 -->
+        <!-- ========================= -->
+
+        <div class="card">
+
+            <h2>Task 8: Multiplication Table</h2>
+
+            <input
+                type="number"
+                id="tableNumber"
+                placeholder="Enter Number">
+
+            <button onclick="multiplicationTable()">
+                Show Table
+            </button>
+
+            <div id="tableResult"></div>
+
+        </div>
+
+
+
+        <!-- ========================= -->
+        <!-- Task 9 -->
+        <!-- ========================= -->
+
+        <div class="card">
+
+            <h2>Task 9: Factorial</h2>
+
+            <input
+                type="number"
+                id="factorialNumber"
+                placeholder="Enter Number">
+
+            <button onclick="factorial()">
+                Calculate
+            </button>
+
+            <p id="factorialResult"></p>
+
+        </div>
+
+
+
+        <!-- ========================= -->
+        <!-- Task 10 -->
+        <!-- ========================= -->
+
+        <div class="card">
+
+            <h2>Task 10: Prime Number Checker</h2>
+
+            <input
+                type="number"
+                id="primeNumber"
+                placeholder="Enter Number">
+
+            <button onclick="primeNumber()">
+                Check
+            </button>
+
+            <p id="primeResult"></p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

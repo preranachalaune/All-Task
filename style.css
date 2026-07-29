@@ -1,0 +1,25 @@
+body{
+    background:#eef5ff;
+}
+
+.card{
+    background:#ffffff;
+    box-shadow:0 8px 20px rgba(0,0,0,0.12);
+}
+
+button{
+    background:#2563eb;
+}
+
+button:hover{
+    background:#1d4ed8;
+}
+
+p{
+    color:#16a34a;
+}
+
+input:focus,
+select:focus{
+    border-color:#2563eb;
+}
